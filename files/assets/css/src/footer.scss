@@ -1,1 +1,35 @@
 @import "variables";
+
+#footer{
+  background-color: white;
+  height: 100vh;
+  h1{
+    margin: 0 auto;
+    top: 160px;
+    right: $padding;
+    position: absolute;
+    text-shadow: black;
+    font-size: 30px;
+    color: $gray;
+    text-align: right;
+  }
+}
+
+.footer {
+  width: 100%;
+
+}
+
+
+.ghost{
+  height: 100%;
+}
+.position{
+  position: absolute;
+  //left: 52vw;
+  padding: 40px 40px 0 0;
+  top: 30%;
+  p {
+    width: 630px;
+  }
+}

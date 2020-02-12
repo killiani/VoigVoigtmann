@@ -1,5 +1,70 @@
 @import "variables";
 
-h2{
-  color: gray;
+.bild{
+  max-height: 100vh;
+  width: 52vw;
+  padding: $padding $padding 0 0;
+}
+
+.text{
+  padding: $padding;
+  text-align: right;
+}
+
+.white-text{
+  color: white;
+  hr{
+    border: 1px solid white;
+  }
+}
+
+.video{
+
+}
+
+.video_frame{
+  height: 100vh;
+}
+
+.ce_player{
+  width: 100%;
+  height: 100vh;
+  padding-top: 30vh;
+
+}
+
+$video: 50vw;
+
+ .mejs__inner, .mejs__controls, {
+  overflow: visible;
+}
+.mejs__controls{
+  width: 100vw;
+  display: none;
+}
+
+.mejs__mediaelement, .mejs__overlay-play, .mejs__poster{
+  left: $video;
+  transform: translateX(-50%);
+  top: -20%;
+}
+
+.mejs__mediaelement{
+  -webkit-box-shadow: 2px -1px 74px 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px -1px 74px 7px rgba(0,0,0,0.75);
+  box-shadow: 2px -1px 74px 7px rgba(0,0,0,0.75);
+}
+
+
+#mep_0 {
+  width: 500px;
+  height: 100%;
+}
+.mejs__container, .mejs__container-keyboard-inactive, .mejs__video{
+  height: 100%;
+}
+
+.mejs__container, .ce_player{
+  //background: linear-gradient(180deg, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 100%);
+  background-color: $gray;
 }

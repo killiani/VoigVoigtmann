@@ -1,5 +1,61 @@
 @import 'variables';
+@font-face {
+  font-family: 'Poppins', sans-serif; //100,200i,400,500
+  font-display : swap;
+  font-style: normal;
+  font-weight: 100;
+  //Poppins:100,200i,400,500;
 
+}
+
+p,a, h1, h2, h3, h4, h5{
+  font-family: 'Poppins', serif;
+  text-decoration: none;
+  max-width: 729px;
+}
+
+hr{
+  border: 1px solid;
+}
+
+p{
+  letter-spacing: 0.5px;
+  padding: 123px 0 0 2px;
+}
+
+.mod_article{
+
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.non_float{
+  clear: both;
+}
+
+
+img {
+  width: unset;
+}
+
+.content{
+  height: 100vh;
+}
+
+.gray{
+  background-color: $gray;
+}
+
+.headline{
+  width: 100px;
+  text-align: center;
+  padding: 9vh 0;
+  @include x_center;
+}
 
 
 @import 'header';
